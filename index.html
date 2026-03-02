@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shopazon – Pre-Build Amazon Shopping Bundles</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+:root {
+  --brand: #2fbdb6;
+  --navy: #0f172a;
+  --bg: #f8fcfb;
+  --text: #0f172a;
+  --neon: #ff006e;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Navbar */
+
+.navbar {
+  background: white;
+}
+
+/* Hero */
+
+.hero {
+  padding: 110px 0;
+  background: linear-gradient(135deg, #2fbdb6, #249f99, #1f8c87);
+  color: white;
+}
+
+/* Buttons */
+
+.btn-primary-navy {
+  background: var(--navy);
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-primary-navy:hover {
+  background: #020617;
+}
+
+/* Cards */
+
+.pricing-card {
+  border-radius: 18px;
+  transition: transform .2s ease;
+  background: white;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Feature Icons */
+
+.feature-icon {
+  font-size: 2.2rem;
+  color: var(--brand);
+}
+
+/* Trust Badges */
+
+.trust-badge {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #f0f9f8;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin: 5px;
+  font-weight: 500;
+}
+
+/* Testimonials */
+
+.testimonial-card {
+  border-left: 4px solid var(--brand);
+  padding: 20px;
+  background: #f8fcfb;
+  border-radius: 8px;
+}
+
+.testimonial-stars {
+  color: #fbbf24;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* How It Works */
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: var(--brand);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0 auto 15px;
+}
+
+/* FAQ */
+
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--navy);
+  user-select: none;
+}
+
+.faq-question:hover {
+  color: var(--brand);
+}
+
+/* Footer */
+
+footer {
+  background: #111827;
+  color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar shadow-sm">
+<div class="container py-3">
+
+<span class="fw-bold fs-4" style="color:var(--navy);">
+Shopazon
+</span>
+
+<a href="#pricing" class="btn btn-primary-navy">
+Lock In $19.99 Now
+</a>
+
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero text-center">
+
+<div class="container">
+
+<h1 class="display-4 fw-bold mb-4">
+Turn Your Blog Posts Into High-Converting Affiliate Carts
+</h1>
+
+<p class="lead mb-5">
+Instead of sending readers to isolated product links,
+send them to checkout-ready bundles inside curated shopping carts.
+Designed for affiliate creators publishing content for Amazon products.
+</p>
+
+<a href="#pricing" class="btn btn-lg btn-primary-navy px-5 py-3">
+Get Lifetime Access Now
+</a>
+
+<p class="mt-3 small">
+Founding pricing available for limited time. Lock in $19.99 before annual pricing launches.
+</p>
+
+</div>
+</section>
+
+<!-- VALUE PROPOSITION -->
+
+<section class="py-5 bg-white text-center">
+
+<div class="container">
+
+<h2 class="fw-bold mb-4">
+Increase Affiliate Revenue Per Visitor
+</h2>
+
+<p class="lead">
+Shopazon helps you curate complete product kits so readers spend more time exploring
+your content and arrive at purchase intent faster.
+</p>
+
+</div>
+</section>
+
+<!-- FEATURES -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="fw-bold text-center mb-5">
+Why Bundle Products?
+</h2>
+
+<div class="row text-center g-4">
+
+<div class="col-md-4">
+<div class="feature-icon mb-3">⚡</div>
+<h5 class="fw-bold">Reduce Friction</h5>
+<p>
+Send readers closer to checkout with fewer decision steps.
+</p>
+</div>
+
+<div class="col-md-4">
+<div class="feature-icon mb-3">🛒</div>
+<h5 class="fw-bold">Preload Shopping Carts</h5>
+<p>
+Multiple affiliate products can be prepared before redirecting.
+</p>
+</div>
+
+<div class="col-md-4">
+<div class="feature-icon mb-3">📈</div>
+<h5 class="fw-bold">Increase Order Value</h5>
+<p>
+Help visitors discover complete product solutions instead of isolated links.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+
+<section class="py-5 bg-white">
+
+<div class="container">
+
+<h2 class="fw-bold text-center mb-5">How It Works in 3 Simple Steps</h2>
+
+<div class="row g-5">
+
+<div class="col-md-4 text-center">
+<div class="step-number">1</div>
+<h5 class="fw-bold">Create a Bundle</h5>
+<p>Add your name and bundle description in the WordPress dashboard</p>
+</div>
+
+<div class="col-md-4 text-center">
+<div class="step-number">2</div>
+<h5 class="fw-bold">Add Products</h5>
+<p>Search and select Amazon products by ASIN or link</p>
+</div>
+
+<div class="col-md-4 text-center">
+<div class="step-number">3</div>
+<h5 class="fw-bold">Share & Earn</h5>
+<p>Embed shortcode in posts or copy the bundle link</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="fw-bold text-center mb-5">Loved by Affiliate Creators</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="mb-3">"Shopazon increased my average order value by 40%. My readers love the curated bundles instead of single product links."</p>
+<p class="fw-bold mb-0">Sarah M.</p>
+<p class="small text-muted">Tech Review Blogger</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="mb-3">"Setup took 5 minutes. No coding required. This is exactly what I was looking for to improve my affiliate revenue."</p>
+<p class="fw-bold mb-0">James T.</p>
+<p class="small text-muted">Gift Guide Creator</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="testimonial-card">
+<div class="testimonial-stars">★★★★★</div>
+<p class="mb-3">"The best affiliate tool I've used. It actually feels like I'm providing real value to my readers while earning more."</p>
+<p class="fw-bold mb-0">Monica L.</p>
+<p class="small text-muted">Product Reviewer</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- PRICING -->
+
+<section id="pricing" class="py-5 bg-white">
+
+<div class="container text-center">
+
+<h2 class="fw-bold mb-5">Founding Pricing</h2>
+
+<div class="row justify-content-center g-4">
+
+<!-- Amazon Associates Plugin -->
+
+<div class="col-md-4">
+
+<div class="card pricing-card shadow p-4 h-100 border-0">
+
+<h3 class="fw-bold">Amazon Associates Plugin</h3>
+
+<p class="text-muted mt-2">
+Basic affiliate links
+</p>
+
+<h1 class="display-5 fw-bold my-3" style="color:#999;">
+$0
+</h1>
+
+<p class="text-muted">
+Free
+</p>
+
+<ul class="list-unstyled my-4">
+<li>✔ Basic affiliate links</li>
+<li>✔ Link cloaking</li>
+<li>✔ Limited customization</li>
+<li>✗ No cart bundling</li>
+</ul>
+
+<a href="#" class="btn btn-lg w-100 btn-outline-secondary disabled">
+Limited Features
+</a>
+
+</div>
+</div>
+
+<!-- Shopazon - Best Deal (Middle) -->
+
+<div class="col-md-4">
+
+<div class="card pricing-card shadow p-4 h-100 border-0" style="border: 3px solid #2fbdb6; position: relative; transform: scale(1.05);">
+
+<div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #2fbdb6; color: white; padding: 4px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 700;">
+BEST DEAL
+</div>
+
+<h3 class="fw-bold mt-2">Shopazon</h3>
+
+<p class="text-muted mt-2">
+Founders get lifetime access
+</p>
+
+<h1 class="display-4 fw-bold my-3" style="color:#2fbdb6;">
+$19.99
+</h1>
+
+<p class="text-muted">
+<span style="text-decoration: line-through; color: #999;">$49.99 annual</span> Lifetime access
+</p>
+
+<ul class="list-unstyled my-4">
+<li>✔ Instant Buy Buttons</li>
+<li>✔ Cart Bundling Feature</li>
+<li>✔ Affiliate ID Support</li>
+<li>✔ WordPress Shortcodes</li>
+</ul>
+
+<a href="#" class="btn btn-lg w-100 btn-primary-navy">
+Get Shopazon Today
+</a>
+
+<p class="small mt-3">
+30-day money back guarantee.
+</p>
+
+</div>
+</div>
+
+<!-- Link Whisper -->
+
+<div class="col-md-4">
+
+<div class="card pricing-card shadow p-4 h-100 border-0">
+
+<h3 class="fw-bold">Link Whisper</h3>
+
+<p class="text-muted mt-2">
+Internal linking tool
+</p>
+
+<h1 class="display-5 fw-bold my-3" style="color:#999;">
+$99
+</h1>
+
+<p class="text-muted">
+Per year
+</p>
+
+<ul class="list-unstyled my-4">
+<li>✔ Internal linking</li>
+<li>✔ Keyword suggestions</li>
+<li>✔ SEO optimization</li>
+<li>✗ No affiliate bundling</li>
+</ul>
+
+<a href="#" class="btn btn-lg w-100 btn-outline-secondary disabled">
+No Bundling Feature
+</a>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+
+<section class="py-5 bg-white">
+
+<div class="container">
+
+<h2 class="fw-bold text-center mb-5">Frequently Asked Questions</h2>
+
+<div class="row justify-content-center">
+
+<div class="col-md-8">
+
+<div class="faq-item">
+<div class="faq-question">Does Shopazon violate Amazon's affiliate policy?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+No. Shopazon simply creates shortlinks to Amazon product pages. You're still directing customers to Amazon, just with your affiliate ID attached. This is completely compliant with Amazon's affiliate policies.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What WordPress versions does it support?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+Shopazon works with WordPress 5.0 and above. It's compatible with all major hosting providers and themes.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Can I use it on multiple sites?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+Yes! Your lifetime license works on unlimited sites. Perfect for agencies and multi-site creators.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">How do I get paid?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+Amazon pays you directly through your Amazon Associates account. Shopazon just powers the bundles—all affiliate earnings go straight to you.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Is there any setup required?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+Minimal. Install the plugin, add your Amazon affiliate ID, and you're ready to create bundles. Most users are live within 5 minutes.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">What if I'm not satisfied?</div>
+<div class="faq-answer" style="display: none; margin-top: 10px; color: #666;">
+No risk. We offer a 30-day money-back guarantee. If Shopazon isn't right for you, we'll refund your full purchase, no questions asked.
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="text-center py-4">
+
+<div class="container">
+
+<p class="fw-bold mb-2">Shopazon</p>
+
+<p class="small mb-0">
+Independent WordPress plugin. Not affiliated with Amazon.
+</p>
+
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// FAQ Toggle Functionality
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', function() {
+    const answer = this.nextElementSibling;
+    const isVisible = answer.style.display !== 'none';
+    answer.style.display = isVisible ? 'none' : 'block';
+    this.style.color = isVisible ? 'var(--navy)' : 'var(--brand)';
+  });
+});
+</script>
+
+</body>
+</html>
